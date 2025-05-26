@@ -1,8 +1,7 @@
-python==3.9
-mlflow
+mlflow==2.22.0
 jupyter
-sckit-learn
-panadas
+scikit-learn==1.6.1
+pandas
 seaborn
 hyperopt
 xgboost

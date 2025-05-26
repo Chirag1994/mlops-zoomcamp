@@ -1,0 +1,12 @@
+{
+  "name": "conda-env",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.12",
+  "postCreateCommand": "conda env create -f environment.yml && echo 'source activate exp-tracking-env' >> ~/.bashrc",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

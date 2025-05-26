@@ -1,0 +1,10 @@
+name: exp-tracking-env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - jupyter
